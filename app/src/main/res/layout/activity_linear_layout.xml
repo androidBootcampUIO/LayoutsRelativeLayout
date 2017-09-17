@@ -131,4 +131,22 @@
         android:layout_toEndOf="@+id/button_plus_minus"
         android:text="*" />
 
+    <!-- Componentes alineados a la parte superior y al inicio (izquierda) de otro componente -->
+
+    <Button
+        android:id="@+id/button_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_multiply"
+        android:layout_toStartOf="@+id/button_multiply"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_multiply"
+        android:layout_toStartOf="@+id/button_nine"
+        android:text="8" />
+
 </RelativeLayout>
