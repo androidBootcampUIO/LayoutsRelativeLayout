@@ -159,4 +159,22 @@
         android:layout_toStartOf="@+id/button_equal"
         android:text="," />
 
+    <!-- Componentes alineados encima de otro componente y al borde final (derecho) de otros componentes -->
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_decimal_separator"
+        android:layout_alignEnd="@+id/button_decimal_separator"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_three"
+        android:layout_alignEnd="@+id/button_three"
+        android:text="6" />
+
 </RelativeLayout>
