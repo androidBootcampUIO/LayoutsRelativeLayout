@@ -113,4 +113,22 @@
         android:layout_alignParentEnd="true"
         android:text="=" />
 
+    <!-- Componentes alineados a la linea base y al final (derecha) de otro componente -->
+
+    <Button
+        android:id="@+id/button_plus_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_c_ac"
+        android:layout_toEndOf="@+id/button_c_ac"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/button_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_c_ac"
+        android:layout_toEndOf="@+id/button_plus_minus"
+        android:text="*" />
+
 </RelativeLayout>
