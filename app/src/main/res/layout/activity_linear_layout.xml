@@ -149,4 +149,14 @@
         android:layout_toStartOf="@+id/button_nine"
         android:text="8" />
 
+    <!-- Componentes alineados a la parte inferior de otro componente -->
+
+    <Button
+        android:id="@+id/button_decimal_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_equal"
+        android:layout_toStartOf="@+id/button_equal"
+        android:text="," />
+
 </RelativeLayout>
